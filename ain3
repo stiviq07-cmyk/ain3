@@ -1,0 +1,113 @@
+Microsoft Windows [Version 10.0.19045.5131]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents>cd ain3
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo ## Отчёт по базовой задаче > report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo. >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>REM раьота по шагу manual_report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo Выполнил(а) обзор истории репозитория, экспорт последних коммитов. >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo. >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>REM Раздел: компактная история
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo ### Последние 10 коммитов (oneline) >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>git log --oneline -n 10 >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>git log --oneline -n 10
+37e59d2 (HEAD -> master) 555
+a6cee61 444
+01df3a3 333
+7658044 222
+69b6b18 111
+ae1add8 Update README
+bb0f104 Update README
+9644821 Initial commit1
+471a694 Update README
+4f2327e Initial commit
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo. >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>REM Раздел: подробный экспорт (hash|author|date|subject)
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo ### Экспорт 10 последних коммитов (hash|author|date|subject) >> report_basic_git.md
+"author" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>git log -n 10 --pretty=format:"%H | %an | %ad | %s" --date=iso >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo. >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>REM Раздел: ответы на вопросы
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo 1) Всего коммитов:10  [вставьте число] >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo 2) Основной автор: ain3 [вставьте имя] >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>echo 3) Тематика сообщений: Нейтральные >> report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «В основном новые функции и исправления ошибок.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «Преимущественно улучшения функционала и багфиксы.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «Главным образом фичи и устранение ошибок.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>Для релиз-нотов
+"Для" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «В релиз вошли новые возможности и исправления выявленных ошибок.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «Обновление включает преимущественно функциональные улучшения и решение багов.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>Для отчётов / рабочей переписки
+"Для" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «Работы выполнены преимущественно по новым фичам и исправлению багов.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «Основной объём - реализация новых функций и корректировка ошибок.»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>Для коммита / changelog
+"Для" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «feat & bugfixes»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"bugfixes»" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «mainly features and bug fixes»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3> • «mostly feature updates + fixes»
+"•" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>notepad report_basic_git.md
+
+C:\Users\Student.DESKTOP-7LJVN73\Documents\ain3>https://github.com/stiviq07-cmyk/ain3
